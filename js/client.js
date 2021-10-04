@@ -6,7 +6,7 @@ const CHUNK_SIZE = 100
 const identity = x => x
 
 export default class JsonBoxClient {
-  constructor (boxId, endpoint = 'https://jsonbox.io') {
+  constructor (boxId, endpoint = 'http://192.168.1.118:3001') {
     this.boxId = boxId
     this.endpoint = endpoint
     this.offset = 0
